@@ -1,0 +1,14 @@
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
+src/_drafts
+config.js
+dist/
+npm-debug.log
+yarn-error.log
+.vscode/*
+.env
