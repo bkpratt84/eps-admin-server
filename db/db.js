@@ -1,5 +1,5 @@
-var sql = require('mssql');
-var Promise = require('promise');
+const sql = require('mssql');
+const Promise = require('promise');
 
 const config = {
     user: process.env.db_user,

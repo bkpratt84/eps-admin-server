@@ -24,7 +24,7 @@ const accessLogStream = rfs('access.log', {
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-if (process.env.environment == 'development')
+if (process.env.environment === 'development')
     app.use(morgan('dev'));
 else
     app.use(morgan('combined', {stream: accessLogStream}));
